@@ -16,8 +16,7 @@ r = sr.Recognizer()
 
 with mic as source:
     print("Say something in English!")
-
-audio = r.listen(source)
+    audio = r.listen(source)
 
 try:
     a = r.recognize_google(audio, language="ua-UA")
