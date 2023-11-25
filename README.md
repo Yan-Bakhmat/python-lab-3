@@ -1,4 +1,4 @@
 # python-lab-3
 
-Перш ніж запускати програму "main.py", варто скористатися "example.py", щоб дізнатися під яким номером у списку девайсів у вас знаходиться мікрофон.
-Відповідно, для коректної роботи програм, саме цей номер треба присвоювати змінним "device_index" та "mic_index".
+Before running the "main.py" program, you should use "example.py" to find out under which number in the list of devices you have a microphone.
+Accordingly, for the correct operation of programs, this number must be assigned to the variables "device_index" and "mic_index".
