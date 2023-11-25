@@ -10,7 +10,7 @@ print(sr.__version__)
 mic_list = sr.Microphone.list_microphone_names()
 [print(i, mic_list[i]) for i in range(0, len(mic_list))]
 
-mic = sr.Microphone(device_index=6)
+mic = sr.Microphone(device_index=1)
 
 r = sr.Recognizer()
 
