@@ -3,7 +3,7 @@ import json
 
 settings = {
     "api": "Google",
-    "mic_index": 6,
+    "mic_index": 1,
     "language": "ua-UA"
 }
 
@@ -23,6 +23,8 @@ with open("settings.json", "r") as f:
     language = settings["language"]
 
 print(f"Using {api} API")
+
+# Програма отримує доступ до вказаного мікрофону та записує голос користувача, конвертуючи його в текст.
 
 mic = sr.Microphone(device_index=mic_index)
 
